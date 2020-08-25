@@ -1,49 +1,49 @@
 variable "service_account_secret" {
-    default = ""
+  default = ""
 }
 
 variable "gcp_project_id" {
-    default = ""
+  default = ""
 }
 
 variable "resources_region" {
-    default = ""
+  default = ""
 }
 
 variable "resources_zone" {
-    default = ""
+  default = ""
 }
 
 variable "vm_name" {
-    default = "Qualys Scanner GCP Terraform"
+  default = "Qualys Scanner GCP Terraform"
 }
 
 variable "vm_size" {
-    default = "f1-micro"
+  default = "f1-micro"
 }
 
 variable "vm_image" {
-    default = "/projects/qualys-gcp-security/global/images/qvsa-gce-2-5-36-1"
+  default = "/projects/qualys-gcp-security/global/images/qvsa-gce-2-5-36-1"
 }
 
 variable "PERSCODE" {
-    default = ""
+  default = ""
 }
 
 variable "subnet_name" {
-    default = ""
+  default = ""
 }
 
 variable "network_IP" {
-    default = ""
+  default = ""
 }
 
 variable "PROXY_URL" {
-    default = ""
+  default = ""
 }
 variable "GCPMONITORING" {
-    default = "0"
+  default = "0"
 }
 variable "GCPLOGGING" {
-    default = "0"
+  default = "0"
 }
