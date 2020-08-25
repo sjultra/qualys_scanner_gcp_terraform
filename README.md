@@ -1,6 +1,8 @@
 # Qualys Scanner GCP Terraform  
 Terraform code that can be used to deploy a qualys scanner on GCP.
 
+NOTE: This code is not fully tested - still under development.
+
 # Prerequisites
 ```
 export TF_VAR_service_account_secret=""
