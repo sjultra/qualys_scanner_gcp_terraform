@@ -19,6 +19,3 @@ export TF_VAR_GCPMONITORING="1"
 export TF_VAR_GCPLOGGING="1"
 ```
 
-# Warnings
-The code will also create a new vpc and attach to that vpc the Qualys scanner vm.
-
