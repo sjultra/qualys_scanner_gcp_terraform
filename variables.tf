@@ -26,7 +26,7 @@ variable "vm_image" {
   default = "/projects/qualys-gcp-security/global/images/qvsa-gce-2-5-36-1"
 }
 
-variable "PERSCODE" {
+variable "perscode" {
   default = ""
 }
 
@@ -34,16 +34,16 @@ variable "subnet_name" {
   default = ""
 }
 
-variable "network_IP" {
+variable "network_ip" {
   default = ""
 }
 
-variable "PROXY_URL" {
+variable "proxy_url" {
   default = ""
 }
-variable "GCPMONITORING" {
+variable "gcp_monitoring" {
   default = "0"
 }
-variable "GCPLOGGING" {
+variable "gcp_logging" {
   default = "0"
 }

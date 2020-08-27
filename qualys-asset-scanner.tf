@@ -9,16 +9,14 @@ resource "google_compute_instance" "qualys-asset-scanner" {
   }
 
   metadata = {
-    PERSCODE                 = var.PERSCODE
-    PROXY_URL                = var.PROXY_URL
-    google-monitoring-enable = var.GCPMONITORING
-    google-logging-enable    = var.GCPLOGGING
+    PERSCODE                 = var.perscode
+    PROXY_URL                = var.proxy_url
+    google-monitoring-enable = var.gcp_monitoring
+    google-logging-enable    = var.gcp_logging
   }
 
   network_interface {
     subnetwork = var.subnet_name
-    network_ip = var.networkIP
+    network_ip = var.network_ip
   }
 }
-
-
