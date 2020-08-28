@@ -19,7 +19,7 @@ variable "vm_name" {
 }
 
 variable "vm_size" {
-  default = "f1-micro"
+  default = "n1-standard-1"
 }
 
 variable "vm_image" {
