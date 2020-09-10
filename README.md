@@ -25,3 +25,17 @@ export TF_VAR_gcp_monitoring="1"
 export TF_VAR_gcp_logging="1"
 ```
 
+# Testing 
+To run the test we use [inspec](https://github.com/inspec/inspec) with [inspec-gcp](https://github.com/inspec/inspec-gcp). 
+
+
+Export the env var: `export GOOGLE_APPLICATION_CREDENTIALS='/path/to/service_account.json'`
+
+Set the correct attribute values for your case in `inspec/attributes.yml`.
+```
+ gcp_project_id: ''
+ gcp_zone_type: ''
+ gcp_machine_name: 'Qualys Scanner GCP Terraform'
+```
+
+Inside the inspec folder run: `inspec exec . -t gcp:// --attrs attributes.yml`

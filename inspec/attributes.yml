@@ -1,0 +1,3 @@
+ gcp_project_id: ''
+ gcp_zone_type: ''
+ gcp_machine_name: 'Qualys Scanner GCP Terraform'
